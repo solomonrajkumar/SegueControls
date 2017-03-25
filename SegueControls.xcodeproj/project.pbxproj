@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68004EC31E86817400B9D7EF /* PlaySongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68004EC21E86817400B9D7EF /* PlaySongViewController.swift */; };
+		68F7423D1E86632800AD1A34 /* MusicListVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F7423C1E86632800AD1A34 /* MusicListVCViewController.swift */; };
 		68FFA34B1E864F7400B9C1DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFA34A1E864F7400B9C1DD /* AppDelegate.swift */; };
-		68FFA34D1E864F7400B9C1DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFA34C1E864F7400B9C1DD /* ViewController.swift */; };
+		68FFA34D1E864F7400B9C1DD /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FFA34C1E864F7400B9C1DD /* LoginVC.swift */; };
 		68FFA3501E864F7400B9C1DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FFA34E1E864F7400B9C1DD /* Main.storyboard */; };
 		68FFA3521E864F7400B9C1DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68FFA3511E864F7400B9C1DD /* Assets.xcassets */; };
 		68FFA3551E864F7400B9C1DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FFA3531E864F7400B9C1DD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68004EC21E86817400B9D7EF /* PlaySongViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongViewController.swift; sourceTree = "<group>"; };
+		68F7423C1E86632800AD1A34 /* MusicListVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVCViewController.swift; sourceTree = "<group>"; };
 		68FFA3471E864F7400B9C1DD /* SegueControls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegueControls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FFA34A1E864F7400B9C1DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		68FFA34C1E864F7400B9C1DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68FFA34C1E864F7400B9C1DD /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		68FFA34F1E864F7400B9C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68FFA3511E864F7400B9C1DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68FFA3541E864F7400B9C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				68FFA34A1E864F7400B9C1DD /* AppDelegate.swift */,
-				68FFA34C1E864F7400B9C1DD /* ViewController.swift */,
+				68FFA34C1E864F7400B9C1DD /* LoginVC.swift */,
 				68FFA34E1E864F7400B9C1DD /* Main.storyboard */,
 				68FFA3511E864F7400B9C1DD /* Assets.xcassets */,
 				68FFA3531E864F7400B9C1DD /* LaunchScreen.storyboard */,
 				68FFA3561E864F7400B9C1DD /* Info.plist */,
+				68F7423C1E86632800AD1A34 /* MusicListVCViewController.swift */,
+				68004EC21E86817400B9D7EF /* PlaySongViewController.swift */,
 			);
 			path = SegueControls;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68FFA34D1E864F7400B9C1DD /* ViewController.swift in Sources */,
+				68FFA34D1E864F7400B9C1DD /* LoginVC.swift in Sources */,
+				68F7423D1E86632800AD1A34 /* MusicListVCViewController.swift in Sources */,
 				68FFA34B1E864F7400B9C1DD /* AppDelegate.swift in Sources */,
+				68004EC31E86817400B9D7EF /* PlaySongViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				68FFA35B1E864F7400B9C1DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
